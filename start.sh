@@ -17,8 +17,8 @@ export VPATH='vls'
 export CF_IP='ip.sb'
 export SUB_NAME='bbn'
 
-# 启动玩具原程序，把原游戏文件改名PocketMine-MP.pha,默认不开启，如果开启请去掉前面的#号，注意原游戏启动后，不显示节点日志
-# export JAR_SH='php PocketMine-MP.phar' 
+# 启动玩具原程序，把原游戏文件改名PockteMine-MP.phar,默认不开启，如果开启请去掉前面的#号，注意原游戏启动后，不显示节点日志
+# export JAR_SH='php PockteMine-MP.phar'
 
 # 设置是否显示日志，默认显示，填no不显示，yes显示
 # export RIZHI='no'
